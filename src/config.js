@@ -70,11 +70,25 @@ const configOptions = new Map([
       desc: 'Remove end screens from video'
     }
   ],
-  [
+   [
     'autoAccountSelect',
     {
       default: false,
       desc: 'Bypass initial account selection on startup'
+    }
+  ],
+  [
+    'enableCodecPolicy',
+    {
+      default: true,
+      desc: 'Enable legacy webOS codec compatibility'
+    }
+  ],
+  [
+    'enableCodecDebug',
+    {
+      default: false,
+      desc: 'Enable codec diagnostic logging'
     }
   ]
 ]);
