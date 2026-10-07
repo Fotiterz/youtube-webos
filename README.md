@@ -87,7 +87,7 @@ luna-send-pub -n 1 'luna://com.webos.service.eim/deleteDevice' '{"appId":"youtub
 1. Clone the repository.
 
    ```sh
-   git clone https://github.com/webosbrew/youtube-webos.git
+   git clone https://github.com/Fotiterz/youtube-webos.git
    cd youtube-webos
    ```
 
