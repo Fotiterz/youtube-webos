@@ -130,6 +130,8 @@ function createOptionsPanel() {
   elmContainer.appendChild(createConfigCheckbox('forceHighResVideo'));
   elmContainer.appendChild(createConfigCheckbox('removeEndscreen'));
   elmContainer.appendChild(createConfigCheckbox('autoAccountSelect'));
+  elmContainer.appendChild(createConfigCheckbox('enableCodecPolicy'));
+  elmContainer.appendChild(createConfigCheckbox('enableCodecDebug'));
   elmContainer.appendChild(createConfigCheckbox('enableSponsorBlock'));
 
   const elmBlock = document.createElement('blockquote');
